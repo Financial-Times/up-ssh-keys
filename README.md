@@ -18,9 +18,11 @@ Adding new keys
 ```./generate_sha512sum.sh```
 
 5. Add, commit, push:
-```git add .
+```
+git add .
 git commit -m "adding an example key"
-git push origin add_example_key```
+git push origin add_example_key
+```
 
 6. On Github, raise a pull request for your branch.
 
