@@ -18,7 +18,7 @@ Adding new keys
     git checkout -b add_example_key
     ```
 
-3. Append the public key (with comment) to `authorized_keys`.
+3. Append the public key to `authorized_keys`. Set the key comment to the user's FT email address - NOT the username@hostname of the server they generated the key on.
 
 4. Update the checksum:
 
