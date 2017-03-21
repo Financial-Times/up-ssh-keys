@@ -23,7 +23,11 @@ Adding new keys
 4. Update the checksum:
 
     ```
+    On Linux:
     ./generate_sha512sum.sh
+
+    On OSX:
+    ./osx_generate_512.sh
     ```
 
 5. Add, commit, push:
@@ -41,5 +45,3 @@ Adding new keys
 8. If approved, merge into master & delete the branch.
 
 9. CoCo clusters will automatically pull the latest `authorized_keys` list within 5 mins.
-
-
