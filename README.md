@@ -40,9 +40,9 @@ Adding new keys
 
 6. On Github, raise a pull request for your branch.
 
-7. In the #upp-pull-requests Slack channel, link your PR and request review.
+7. In the [#upp-pull-requests](https://financialtimes.slack.com/messages/C10KGUC9M/) Slack channel, link your PR and request review.
 
-8. If approved, merge into master & delete the branch.
+8. If approved, a member of the [UPP Admins](https://github.com/orgs/Financial-Times/teams/universal-publishing-admin/members) group will merge into master & delete the branch.
 
 9. CoCo clusters will automatically pull the latest `authorized_keys` list within 5 mins.
 
@@ -85,8 +85,8 @@ Removing keys (e.g. for leavers)
 
 6. On Github, raise a pull request for your branch.
 
-7. In the #upp-pull-requests Slack channel, link your PR and request review.
+7. In the [#upp-pull-requests](https://financialtimes.slack.com/messages/C10KGUC9M/) Slack channel, link your PR and request review.
 
-8. If approved, merge into master & delete the branch.
+8. If approved, a member of the [UPP Admins](https://github.com/orgs/Financial-Times/teams/universal-publishing-admin/members) will merge into master & delete the branch.
 
 9. CoCo clusters will automatically pull the latest `authorized_keys` list within 5 mins.
