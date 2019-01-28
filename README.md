@@ -1,6 +1,8 @@
 Universal Publishing Public SSH Keys
 ======
 
+Note that Git Bash `shasum` on Windows seems to generate a different sha512 hash to Linux and Mac - we're not quite sure why.  
+**Please don't use Git Bash to update this repo.**
 
 Adding new keys
 ----
@@ -20,7 +22,7 @@ Adding new keys
 
 3. Append the public key to `authorized_keys`. Set the key comment to the user's FT email address - NOT the username@hostname of the server they generated the key on.
 
-4. Update the checksum:
+4. Update the checksum. **Don't use Git Bash.**
 
     ```
     On Linux:
@@ -44,7 +46,7 @@ Adding new keys
 
 8. If approved, a member of the [UPP Admins](https://github.com/orgs/Financial-Times/teams/universal-publishing-admin/members) group will merge into master & delete the branch.
 
-9. CoCo clusters will automatically pull the latest `authorized_keys` list within 5 mins.
+9. Content k8s clusters will automatically pull the latest `authorized_keys` list within 5 mins.
 
 
 Removing keys (e.g. for leavers)
@@ -65,7 +67,7 @@ Removing keys (e.g. for leavers)
 
 3. Find the relevant row in `authorized_keys`. Remove it.
 
-4. Update the checksum:
+4. Update the checksum. **Don't use Git Bash.**
 
     ```
     On Linux:
@@ -89,4 +91,4 @@ Removing keys (e.g. for leavers)
 
 8. If approved, a member of the [UPP Admins](https://github.com/orgs/Financial-Times/teams/universal-publishing-admin/members) will merge into master & delete the branch.
 
-9. CoCo clusters will automatically pull the latest `authorized_keys` list within 5 mins.
+9. Content k8s clusters will automatically pull the latest `authorized_keys` list within 5 mins.
