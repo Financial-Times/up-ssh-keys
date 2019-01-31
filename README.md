@@ -13,7 +13,7 @@ Note that Git Bash `shasum` on Windows seems to generate a different sha512 hash
 	If you use Tortoise GIT you can go from Settings->GIT and from the right menu to disable for Local the `Auto Crlf` in `Auto Crlf convert` section
 	```
   -	all other steps below remain unchanged 
-**
+
 Adding new keys
 ----
 
