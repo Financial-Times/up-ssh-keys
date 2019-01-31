@@ -1,8 +1,16 @@
 Universal Publishing Public SSH Keys
 ======
 
-Note that Git Bash `shasum` on Windows seems to generate a different sha512 hash to Linux and Mac - we're not quite sure why.  
-**Please don't use Git Bash to update this repo.**
+Windows users
+----
+
+Windows uses different line separators (`\r\n`) to Linux and Mac (`\n`), which causes issues with sha512 hash checking.  
+
+There are two ways to work around this:  
+- If you're using Notepad++, `Edit->EOL Conversion` to choose Unix (LF) or Macintosh (CR) option  
+- If you're using Tortoise GIT, you can go from `Settings->GIT`, then disable `Auto Crlf` in the `Auto Crlf convert` section  
+
+If you are using the [Linux Subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/faq), you shouldn't have any problems provided you edit the files in Linux.  
 
 Adding new keys
 ----
